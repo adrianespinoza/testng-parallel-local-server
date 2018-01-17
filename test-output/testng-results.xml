@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13792" started-at="2014-01-06T15:03:50Z" finished-at="2014-01-06T15:04:04Z">
+    <groups>
+    </groups>
+    <test name="ThirdTest" duration-ms="10045" started-at="2014-01-06T15:03:50Z" finished-at="2014-01-06T15:04:00Z">
+      <class name="aveh.parallel.TestCase">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:aveh.parallel.TestCase@68558426]" name="setUp" is-config="true" duration-ms="2301" started-at="2014-01-06T11:03:50Z" finished-at="2014-01-06T11:03:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[internet explorer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSimple()[pri:0, instance:aveh.parallel.TestCase@68558426]" name="testSimple" duration-ms="6074" started-at="2014-01-06T11:03:52Z" finished-at="2014-01-06T11:03:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimple -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:aveh.parallel.TestCase@68558426]" name="tearDown" is-config="true" duration-ms="1660" started-at="2014-01-06T11:03:58Z" finished-at="2014-01-06T11:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- aveh.parallel.TestCase -->
+    </test> <!-- ThirdTest -->
+    <test name="FirstTest" duration-ms="10552" started-at="2014-01-06T15:03:50Z" finished-at="2014-01-06T15:04:00Z">
+      <class name="aveh.parallel.TestCase">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:aveh.parallel.TestCase@65a601b0]" name="setUp" is-config="true" duration-ms="4108" started-at="2014-01-06T11:03:50Z" finished-at="2014-01-06T11:03:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[25.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSimple()[pri:0, instance:aveh.parallel.TestCase@65a601b0]" name="testSimple" duration-ms="6317" started-at="2014-01-06T11:03:54Z" finished-at="2014-01-06T11:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimple -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:aveh.parallel.TestCase@65a601b0]" name="tearDown" is-config="true" duration-ms="119" started-at="2014-01-06T11:04:00Z" finished-at="2014-01-06T11:04:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- aveh.parallel.TestCase -->
+    </test> <!-- FirstTest -->
+    <test name="SecondTest" duration-ms="13792" started-at="2014-01-06T15:03:50Z" finished-at="2014-01-06T15:04:04Z">
+      <class name="aveh.parallel.TestCase">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:aveh.parallel.TestCase@68052c7b]" name="setUp" is-config="true" duration-ms="8184" started-at="2014-01-06T11:03:50Z" finished-at="2014-01-06T11:03:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[31.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSimple()[pri:0, instance:aveh.parallel.TestCase@68052c7b]" name="testSimple" duration-ms="4343" started-at="2014-01-06T11:03:58Z" finished-at="2014-01-06T11:04:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSimple -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:aveh.parallel.TestCase@68052c7b]" name="tearDown" is-config="true" duration-ms="1258" started-at="2014-01-06T11:04:02Z" finished-at="2014-01-06T11:04:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- aveh.parallel.TestCase -->
+    </test> <!-- SecondTest -->
+  </suite> <!-- Suite -->
+</testng-results>
